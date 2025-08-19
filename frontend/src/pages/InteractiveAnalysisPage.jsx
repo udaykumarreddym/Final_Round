@@ -79,8 +79,8 @@ export default function InteractiveAnalysisPage({ primaryDocument, onSubmit }) {
           Your Query
         </label>
         <p className="text-sm text-gray-500 mb-3">
-          Highlight text from the PDF above, or type your own query here to
-          analyze.
+          Select text from the PDF above and single tap in the box to drop it
+          automatically, or type your own query here to analyze.
         </p>
         <textarea
           id="query-box"
