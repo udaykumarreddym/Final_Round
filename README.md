@@ -159,6 +159,8 @@ The text selctions work as follows
 
 - ADOBE_EMBED_API_KEY="0ad4e2cfee304a8d9d32232d3dd9729f"
 
+- The docker image might take more time to create.
+
 🙋 Author
 
 M Uday Kumar Reddy
