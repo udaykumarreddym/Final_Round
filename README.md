@@ -157,6 +157,8 @@ The text selctions work as follows
 
 - Select the text and single click the input box, the text will be automatically dropped there.
 
+- ADOBE_EMBED_API_KEY="0ad4e2cfee304a8d9d32232d3dd9729f"
+
 🙋 Author
 
 M Uday Kumar Reddy
