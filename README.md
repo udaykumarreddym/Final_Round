@@ -151,7 +151,7 @@ This will:
 - Run both Frontend and backend on `port 8080`
 - Implements the solution
 
-## Note to the Judges
+# Note to the Judges
 
 The text selctions work as follows
 
