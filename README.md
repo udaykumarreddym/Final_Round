@@ -135,15 +135,16 @@ docker build --platform linux/amd64 -t yourimageidentifier .
 ### ▶️ Step 2: Run the Container
 
 ```bash
-docker run -v /path/to/credentials:/credentials \
-  -e ADOBE_EMBED_API_KEY=<ADOBE_EMBED_API_KEY> \
-  -e LLM_PROVIDER=gemini \
-  -e GOOGLE_APPLICATION_CREDENTIALS=/credentials/adbe-gcp.json \
-  -e GEMINI_MODEL=gemini-2.5-flash \
-  -e TTS_PROVIDER=azure \
-  -e AZURE_TTS_KEY="TTS_KEY" \
-  -e AZURE_TTS_ENDPOINT="TTS_ENDPOINT" \
-  -p 8080:8080 yourimageidentifier
+docker run 
+-e ADOBE_EMBED_API_KEY=<ADOBE_EMBED_API_KEY> 
+-e LLM_PROVIDER=gemini 
+-e GEMINI_API_KEY="<YOUR_ACTUAL_GEMINI_API_KEY>" 
+-e GEMINI_MODEL=gemini-1.5-flash 
+-e TTS_PROVIDER=azure 
+-e AZURE_TTS_KEY="TTS_KEY" 
+-e AZURE_TTS_ENDPOINT="TTS_ENDPOINT" 
+-p 8080:8080 
+yourimageidentifier
 ```
 
 This will:
